@@ -1,0 +1,475 @@
+{
+  "brand": "أبو جبير الوهبي",
+  "count": 44,
+  "classification_note": "التصنيفات الأولية مبنية على المعاينة البصرية المصغرة؛ يرجى مراجعة التصنيف قبل النشر، خصوصاً التفريق بين الرخام الطبيعي والبورسلان الشبيه بالرخام.",
+  "projects": [
+    {
+      "id": "PROJECT-001",
+      "image": "assets/projects/project-001.jpg",
+      "original_filename": "IMG-20261116-WA0075.jpg",
+      "title": "تنفيذ وتشطيب درج",
+      "category": "السلالم والدرج",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": false
+    },
+    {
+      "id": "PROJECT-002",
+      "image": "assets/projects/project-002.jpg",
+      "original_filename": "IMG-20261116-WA0076.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-003",
+      "image": "assets/projects/project-003.jpg",
+      "original_filename": "IMG-20261116-WA0077.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-004",
+      "image": "assets/projects/project-004.jpg",
+      "original_filename": "IMG-20261116-WA0078.jpg",
+      "title": "تشطيب أرضيات بتأثير رخامي",
+      "category": "الأرضيات والرخام",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-005",
+      "image": "assets/projects/project-005.jpg",
+      "original_filename": "IMG-20261116-WA0079.jpg",
+      "title": "تشطيب جدران ومساحات داخلية",
+      "category": "الحمامات والجدران",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-006",
+      "image": "assets/projects/project-006.jpg",
+      "original_filename": "IMG-20261116-WA0080.jpg",
+      "title": "تشطيب جدران ومساحات داخلية",
+      "category": "الحمامات والجدران",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-007",
+      "image": "assets/projects/project-007.jpg",
+      "original_filename": "IMG-20261116-WA0081.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": false
+    },
+    {
+      "id": "PROJECT-008",
+      "image": "assets/projects/project-008.jpg",
+      "original_filename": "IMG-20261116-WA0082.jpg",
+      "title": "تنفيذ أرضيات وبلاط",
+      "category": "الأرضيات والبلاط",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-009",
+      "image": "assets/projects/project-009.jpg",
+      "original_filename": "IMG-20261116-WA0083.jpg",
+      "title": "تنفيذ أرضيات وبلاط",
+      "category": "الأرضيات والبلاط",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-010",
+      "image": "assets/projects/project-010.jpg",
+      "original_filename": "IMG-20261116-WA0085.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": false
+    },
+    {
+      "id": "PROJECT-011",
+      "image": "assets/projects/project-011.jpg",
+      "original_filename": "IMG-20261116-WA0086.jpg",
+      "title": "تنفيذ أرضيات وبلاط",
+      "category": "الأرضيات والبلاط",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-012",
+      "image": "assets/projects/project-012.jpg",
+      "original_filename": "IMG-20261116-WA0087.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": false
+    },
+    {
+      "id": "PROJECT-013",
+      "image": "assets/projects/project-013.jpg",
+      "original_filename": "IMG-20261116-WA0088.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": false
+    },
+    {
+      "id": "PROJECT-014",
+      "image": "assets/projects/project-014.jpg",
+      "original_filename": "IMG-20261116-WA0089.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": false
+    },
+    {
+      "id": "PROJECT-015",
+      "image": "assets/projects/project-015.jpg",
+      "original_filename": "IMG-20261116-WA0090.jpg",
+      "title": "تشطيب جدران ومساحات داخلية",
+      "category": "الحمامات والجدران",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-016",
+      "image": "assets/projects/project-016.jpg",
+      "original_filename": "IMG-20261116-WA0091.jpg",
+      "title": "تشطيب جدران ومساحات داخلية",
+      "category": "الحمامات والجدران",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-017",
+      "image": "assets/projects/project-017.jpg",
+      "original_filename": "IMG-20261116-WA0092.jpg",
+      "title": "تشطيب جدران ومساحات داخلية",
+      "category": "الحمامات والجدران",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-018",
+      "image": "assets/projects/project-018.jpg",
+      "original_filename": "IMG-20261116-WA0093.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": false
+    },
+    {
+      "id": "PROJECT-019",
+      "image": "assets/projects/project-019.jpg",
+      "original_filename": "IMG-20261116-WA0094.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-020",
+      "image": "assets/projects/project-020.jpg",
+      "original_filename": "IMG-20261116-WA0095.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-021",
+      "image": "assets/projects/project-021.jpg",
+      "original_filename": "IMG-20261116-WA0096.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": false
+    },
+    {
+      "id": "PROJECT-022",
+      "image": "assets/projects/project-022.jpg",
+      "original_filename": "IMG-20261116-WA0097.jpg",
+      "title": "تشطيب جدران ومساحات داخلية",
+      "category": "الحمامات والجدران",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-023",
+      "image": "assets/projects/project-023.jpg",
+      "original_filename": "IMG-20261116-WA0098.jpg",
+      "title": "تشطيب جدران ومساحات داخلية",
+      "category": "الحمامات والجدران",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-024",
+      "image": "assets/projects/project-024.jpg",
+      "original_filename": "IMG-20261116-WA0099.jpg",
+      "title": "تنفيذ وتشطيب درج",
+      "category": "السلالم والدرج",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-025",
+      "image": "assets/projects/project-025.jpg",
+      "original_filename": "IMG-20261116-WA0100.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-026",
+      "image": "assets/projects/project-026.jpg",
+      "original_filename": "IMG-20261116-WA0101.jpg",
+      "title": "تنفيذ وتشطيب درج",
+      "category": "السلالم والدرج",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-027",
+      "image": "assets/projects/project-027.jpg",
+      "original_filename": "IMG-20261116-WA0102.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-028",
+      "image": "assets/projects/project-028.jpg",
+      "original_filename": "IMG-20261116-WA0103.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-029",
+      "image": "assets/projects/project-029.jpg",
+      "original_filename": "IMG-20261116-WA0104.jpg",
+      "title": "تنفيذ أرضيات وبلاط",
+      "category": "الأرضيات والبلاط",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-030",
+      "image": "assets/projects/project-030.jpg",
+      "original_filename": "IMG-20261116-WA0105.jpg",
+      "title": "تنفيذ أرضيات وبلاط",
+      "category": "الأرضيات والبلاط",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-031",
+      "image": "assets/projects/project-031.jpg",
+      "original_filename": "IMG-20261116-WA0106.jpg",
+      "title": "تشطيب جدران ومساحات داخلية",
+      "category": "الحمامات والجدران",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-032",
+      "image": "assets/projects/project-032.jpg",
+      "original_filename": "IMG-20261116-WA0107.jpg",
+      "title": "تشطيب جدران ومساحات داخلية",
+      "category": "الحمامات والجدران",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-033",
+      "image": "assets/projects/project-033.jpg",
+      "original_filename": "IMG-20261116-WA0108.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-034",
+      "image": "assets/projects/project-034.jpg",
+      "original_filename": "IMG-20261116-WA0109.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-035",
+      "image": "assets/projects/project-035.jpg",
+      "original_filename": "IMG-20261116-WA0110.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-036",
+      "image": "assets/projects/project-036.jpg",
+      "original_filename": "IMG-20261116-WA0111.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-037",
+      "image": "assets/projects/project-037.jpg",
+      "original_filename": "IMG-20261116-WA0112.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-038",
+      "image": "assets/projects/project-038.jpg",
+      "original_filename": "IMG-20261116-WA0113.jpg",
+      "title": "تشطيب جدران ومساحات داخلية",
+      "category": "الحمامات والجدران",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-039",
+      "image": "assets/projects/project-039.jpg",
+      "original_filename": "IMG-20261116-WA0114.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-040",
+      "image": "assets/projects/project-040.jpg",
+      "original_filename": "IMG-20261116-WA0115.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-041",
+      "image": "assets/projects/project-041.jpg",
+      "original_filename": "IMG-20261116-WA0116.jpg",
+      "title": "تنفيذ وتشطيب درج",
+      "category": "السلالم والدرج",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-042",
+      "image": "assets/projects/project-042.jpg",
+      "original_filename": "IMG-20261116-WA0117.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-043",
+      "image": "assets/projects/project-043.jpg",
+      "original_filename": "IMG-20261116-WA0118.jpg",
+      "title": "تنفيذ أرضيات وبلاط",
+      "category": "الأرضيات والبلاط",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-044",
+      "image": "assets/projects/project-044.jpg",
+      "original_filename": "IMG-20261116-WA0119.jpg",
+      "title": "تفاصيل زخرفية وفواصل",
+      "category": "الزخارف والفواصل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-045",
+      "image": "assets/projects/project-045.jpg",
+      "original_filename": "IMG-20261116-WA0120.jpg",
+      "title": "تشطيب أرضيات بتأثير رخامي",
+      "category": "الأرضيات والرخام",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-046",
+      "image": "assets/projects/project-046.jpg",
+      "original_filename": "IMG-20261116-WA0121.jpg",
+      "title": "تشطيبات المداخل والنوافذ",
+      "category": "التشطيبات والمداخل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-047",
+      "image": "assets/projects/project-047.jpg",
+      "original_filename": "IMG-20261116-WA0122.jpg",
+      "title": "تشطيبات المداخل والنوافذ",
+      "category": "التشطيبات والمداخل",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-048",
+      "image": "assets/projects/project-048.jpg",
+      "original_filename": "IMG-20261116-WA0123.jpg",
+      "title": "تشطيب أرضيات بتأثير رخامي",
+      "category": "الأرضيات والرخام",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-049",
+      "image": "assets/projects/project-049.jpg",
+      "original_filename": "IMG-20261116-WA0126.jpg",
+      "title": "تنفيذ أرضيات وبلاط",
+      "category": "الأرضيات والبلاط",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-050",
+      "image": "assets/projects/project-050.jpg",
+      "original_filename": "IMG-20261116-WA0127.jpg",
+      "title": "تشطيب أرضيات بتأثير رخامي",
+      "category": "الأرضيات والرخام",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-051",
+      "image": "assets/projects/project-051.jpg",
+      "original_filename": "IMG-20261116-WA0128.jpg",
+      "title": "تنفيذ أرضيات وبلاط",
+      "category": "الأرضيات والبلاط",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    },
+    {
+      "id": "PROJECT-052",
+      "image": "assets/projects/project-052.jpg",
+      "original_filename": "IMG-20261116-WA0129.jpg",
+      "title": "تنفيذ أرضيات وبلاط",
+      "category": "الأرضيات والبلاط",
+      "description": "صورة من الأعمال الحقيقية المرفقة. يمكن تعديل العنوان والتصنيف والوصف من لوحة إدارة المحتوى.",
+      "published": true
+    }
+  ]
+}
