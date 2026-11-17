@@ -1,15 +1,32 @@
-let projects = [];
-const $ = id => document.getElementById(id);
-const status = (id, text, type = '') => { const el = $(id); if (el) { el.textContent = text; el.className = `status ${type}`; } };
-function showLogin() { $('loginView').classList.remove('hidden'); $('dashboard').classList.add('hidden'); $('logoutBtn').classList.add('hidden'); }
-function showDashboard() { $('loginView').classList.add('hidden'); $('dashboard').classList.remove('hidden'); $('logoutBtn').classList.remove('hidden'); loadCategories(); loadProjects(); }
-async function request(url, options = {}) { const response = await fetch(url, { credentials: 'same-origin', ...options }); const data = await response.json().catch(() => ({})); if (!response.ok) throw new Error(data.error || 'request-failed'); return data; }
-async function start() { try { const session = await request('/api/session'); session.authenticated ? showDashboard() : showLogin(); } catch { showLogin(); } }
-async function signIn() { const code = $('loginPin').value; if (!code) return status('loginStatus', 'أدخل رمز الدخول.', 'error'); status('loginStatus', 'جاري التحقق...'); try { await request('/api/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ code }) }); status('loginStatus', 'تم الدخول.', 'ok'); showDashboard(); } catch { status('loginStatus', 'بيانات الدخول غير صحيحة.', 'error'); } }
-function loadCategories() { const cats = ['الأرضيات والبلاط', 'الأرضيات والرخام', 'الحمامات والجدران', 'السلالم والدرج', 'الزخارف والفواصل', 'التشطيبات والمداخل', 'أعمال متنوعة']; $('projectCategory').innerHTML = cats.map(c => `<option value="${c}">${c}</option>`).join(''); }
-async function loadProjects() { status('listStatus', 'جاري تحميل الأعمال...'); try { const data = await request('/api/projects'); projects = data.projects || []; drawProjects(); status('listStatus', 'المعرض القديم محفوظ، ويمكنك إضافة أعمال جديدة.', 'ok'); } catch { status('listStatus', 'تعذر تحميل الأعمال.', 'error'); } }
-function drawProjects() { const q = ($('search').value || '').trim().toLowerCase(); const list = projects.filter(p => `${p.title} ${p.category || ''} ${p.id}`.toLowerCase().includes(q)); $('adminList').innerHTML = list.length ? list.map(p => `<article class="admin-row"><img src="${p.image}" alt="${p.title}"><div><h3>${p.title}</h3><span class="badge ${p.published ? '' : 'draft'}">${p.published ? 'منشور للعميل' : 'مسودة مخفية'}</span><p>${p.category || ''}</p><p>${p.description || 'بدون وصف'}</p></div><div class="admin-row-actions"><button data-toggle="${p.id}">${p.published ? 'إخفاء' : 'نشر في المعرض'}</button></div></article>`).join('') : '<p class="admin-note">لا توجد أعمال مطابقة.</p>'; document.querySelectorAll('[data-toggle]').forEach(btn => btn.onclick = () => togglePublished(btn.dataset.toggle)); }
-async function togglePublished(id) { try { await request(`/api/projects/${encodeURIComponent(id)}/toggle`, { method: 'POST' }); await loadProjects(); } catch { status('listStatus', 'تعذر تحديث حالة العمل.', 'error'); } }
-function addProject(publish = false) { const file = $('imageFile').files[0]; if (!file) return status('projectStatus', 'اختر صورة أولًا.', 'error'); if (file.size > 3 * 1024 * 1024) return status('projectStatus', 'حجم الصورة يجب ألا يتجاوز 3 ميجابايت عند النشر على Vercel.', 'error'); const reader = new FileReader(); reader.onload = async () => { status('projectStatus', 'جاري رفع الصورة وحفظها...'); try { await request('/api/projects', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ imageData: reader.result, originalFilename: file.name, title: $('projectTitle').value.trim(), category: $('projectCategory').value, description: $('projectDescription').value.trim(), publish }) }); $('projectForm').reset(); status('projectStatus', publish ? 'تمت إضافة الصورة ونشرها للعميل.' : 'تم حفظ الصورة كمسودة.', 'ok'); await loadProjects(); } catch { status('projectStatus', 'تعذر حفظ الصورة.', 'error'); } }; reader.readAsDataURL(file); }
-$('togglePin').onclick = () => { const input = $('loginPin'); const visible = input.type === 'text'; input.type = visible ? 'password' : 'text'; $('togglePin').textContent = visible ? '◉' : '◌'; };
-$('loginBtn').onclick = signIn; $('logoutBtn').onclick = async () => { await request('/api/logout', { method: 'POST' }); showLogin(); }; $('search').oninput = drawProjects; $('projectForm').onsubmit = e => { e.preventDefault(); addProject(false); }; $('saveAndPublish').onclick = () => addProject(true); start();
+(() => {
+  const loginButton = document.getElementById('loginBtn');
+  const loginStatus = document.getElementById('loginStatus');
+  const togglePin = document.getElementById('togglePin');
+  const loginPin = document.getElementById('loginPin');
+  const projectForm = document.getElementById('projectForm');
+  const saveAndPublish = document.getElementById('saveAndPublish');
+  const logoutButton = document.getElementById('logoutBtn');
+
+  // Keep the original admin page visible, but disable all server-backed actions temporarily.
+  if (loginButton) {
+    loginButton.disabled = true;
+    loginButton.setAttribute('aria-disabled', 'true');
+    loginButton.title = 'سيتم تفعيل الإدارة لاحقاً';
+    loginButton.addEventListener('click', () => {
+      if (loginStatus) {
+        loginStatus.textContent = 'الإدارة غير مفعّلة مؤقتاً. هذه الصفحة محفوظة بنفس شكل لوحة الإدارة الأصلية.';
+        loginStatus.className = 'status';
+      }
+    });
+  }
+  if (togglePin && loginPin) togglePin.onclick = () => {
+    const visible = loginPin.type === 'text';
+    loginPin.type = visible ? 'password' : 'text';
+    togglePin.textContent = visible ? '◉' : '◌';
+  };
+  if (projectForm) {
+    projectForm.querySelectorAll('input, select, textarea, button').forEach((field) => { field.disabled = true; });
+  }
+  if (saveAndPublish) saveAndPublish.disabled = true;
+  if (logoutButton) logoutButton.disabled = true;
+})();
